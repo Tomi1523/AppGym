@@ -1,0 +1,84 @@
+.Join{
+    display: flex;
+    padding: 2rem;
+    gap: 10rem;
+
+}
+
+
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+
+.left-j>hr{
+    position:absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container{
+    display: flex;
+    border-radius: 60px;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+
+
+
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+}
+
+::placeholder{
+    color: var(--lightgray);
+}
+
+.btn-join{
+    background-color: var(--orange);
+    border-radius: 20px;
+    width: 100px;
+}
+
+@media screen and (max-width: 768px){
+
+    .Join{
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+
+    .left-j{
+        font-size: 20px;
+       
+    }
+
+
+    .left-j>hr{  
+          margin-left: 35px;
+    }
+
+    .left-j>div{
+        margin-left:20px;
+    }
+
+    
+  
+   
+
+}
